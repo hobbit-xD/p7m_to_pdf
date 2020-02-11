@@ -1,5 +1,4 @@
 #!/bin/bash
-#set -x
 outdir="$1.out"
 filename="${1##*/}" #extract filename, without path
 outfile=$outdir/${filename/.p7m/}
